@@ -1,6 +1,6 @@
 const express = require("express");
 const helmet = require("helmet");
-const cookie = require("cookie");
+const cookie = require("cookie-parser");
 const app = express();
 const port = 3000;
 

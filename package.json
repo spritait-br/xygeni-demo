@@ -20,8 +20,12 @@
 	},
 	"homepage": "https://github.com/spritait-br/xygeni-demo#readme",
 	"dependencies": {
-		"cookie": "^1.0.2",
+		"cookie": "1.0.2",
+		"cookie-parser": "^1.4.7",
 		"express": "^5.1.0",
 		"helmet": "^8.1.0"
+	},
+	"resolutions": {
+		"cookie": "1.0.2"
 	}
 }
