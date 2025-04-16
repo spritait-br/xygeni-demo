@@ -20,6 +20,7 @@
 	},
 	"homepage": "https://github.com/spritait-br/xygeni-demo#readme",
 	"dependencies": {
+		"cookie": "^1.0.2",
 		"express": "^5.1.0"
 	}
 }
