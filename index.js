@@ -10,8 +10,8 @@ const port = 443;
 
 // Carregar certificados SSL
 const options = {
-	key: fs.readFileSync("server.key"),
-	cert: fs.readFileSync("server.cert"),
+	key: fs.readFileSync("../cert/server.key"),
+	cert: fs.readFileSync("../cert/server.cert"),
 };
 
 app.use(helmet());
